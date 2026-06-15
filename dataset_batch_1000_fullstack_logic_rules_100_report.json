@@ -1,0 +1,18 @@
+{
+  "total": 1000,
+  "expected": 1000,
+  "uniqueIds": 1000,
+  "uniqueTasks": 1000,
+  "uniqueCategories": 115,
+  "scoreCounts": {
+    "100": 1000
+  },
+  "all_top": true,
+  "duplicates": 0,
+  "idDuplicates": 0,
+  "missingFields": [],
+  "shortFields": [],
+  "internetRequiredCount": 0,
+  "status": "all_100",
+  "theme": "fullstack_problem_logic_rules"
+}

@@ -1,0 +1,84 @@
+{
+  "source_file": "dataset_batch_300.jsonl",
+  "total": 300,
+  "labels": {
+    "top": 203,
+    "needs_fix": 97,
+    "reject": 0
+  },
+  "top_ratio": 0.68,
+  "avg_score": 41.87,
+  "avg_issues": 0.34,
+  "domain_top": {
+    "backend": 91,
+    "frontend": 35,
+    "security": 33,
+    "database": 44
+  },
+  "top_sample": [
+    {
+      "id": "poly-201",
+      "domain": "backend",
+      "quality_score": 46
+    },
+    {
+      "id": "poly-202",
+      "domain": "backend",
+      "quality_score": 43
+    },
+    {
+      "id": "poly-203",
+      "domain": "backend",
+      "quality_score": 43
+    },
+    {
+      "id": "poly-204",
+      "domain": "backend",
+      "quality_score": 43
+    },
+    {
+      "id": "poly-205",
+      "domain": "backend",
+      "quality_score": 43
+    }
+  ],
+  "needs_fix_sample": [
+    {
+      "id": "poly-211",
+      "issues": [
+        "frontend_task_keyword_gap"
+      ],
+      "score": 37
+    },
+    {
+      "id": "poly-212",
+      "issues": [
+        "short_texts"
+      ],
+      "score": 40
+    },
+    {
+      "id": "poly-214",
+      "issues": [
+        "frontend_task_keyword_gap"
+      ],
+      "score": 37
+    },
+    {
+      "id": "poly-217",
+      "issues": [
+        "short_texts"
+      ],
+      "score": 40
+    },
+    {
+      "id": "poly-223",
+      "issues": [
+        "short_texts"
+      ],
+      "score": 40
+    }
+  ],
+  "reject_sample": [],
+  "notes": "Scoring heuristic: >=42 top, >=26 needs_fix, otherwise reject."
+}

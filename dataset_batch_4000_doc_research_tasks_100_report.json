@@ -1,0 +1,18 @@
+{
+  "total": 4000,
+  "expected": 4000,
+  "uniqueIds": 4000,
+  "uniqueTasks": 4000,
+  "uniqueCategories": 20,
+  "scoreCounts": {
+    "100": 4000
+  },
+  "all_top": true,
+  "duplicates": 0,
+  "idDuplicates": 0,
+  "missingFields": [],
+  "shortFields": [],
+  "internetRequiredCount": 4000,
+  "status": "all_100",
+  "theme": "documentation_research_tasks_official_docs_required"
+}

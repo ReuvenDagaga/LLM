@@ -1,0 +1,172 @@
+{
+  "createdAt": "2026-06-10",
+  "totalGoldRows": 11521,
+  "uniqueIds": 11521,
+  "uniqueTaskKeys": 11521,
+  "internetRequiredRows": 8000,
+  "webSearchRequiredRows": 8000,
+  "officialDocsRequiredRows": 8000,
+  "qualityScoreMin": 96,
+  "qualityScoreMax": 100,
+  "allTop": true,
+  "missingFields": [],
+  "shortFields": [],
+  "sourceCounts": {
+    "dataset_batch_4000_internet_solution_search_tasks_100.jsonl": 4000,
+    "dataset_batch_4000_doc_research_tasks_100.jsonl": 4000,
+    "dataset_batch_1000_fullstack_logic_rules_100.jsonl": 1000,
+    "dataset_batch_1000_large_code_systems_100.jsonl": 1000,
+    "dataset_batch_1000_cyber_systemic_100.jsonl": 540,
+    "dataset_batch_500_100.jsonl": 97,
+    "dataset_batch_01.jsonl": 105,
+    "dataset_batch_02.jsonl": 100,
+    "dataset_batch_03.jsonl": 100,
+    "dataset_batch_04.jsonl": 100,
+    "dataset_batch_05.jsonl": 100,
+    "dataset_batch_200.jsonl": 79,
+    "dataset_batch_300_top.jsonl": 203,
+    "dataset_batch_300_v2.jsonl": 97
+  },
+  "domainCounts": {
+    "internet_solution_search": 4000,
+    "documentation_research_tasks": 4000,
+    "fullstack_problem_logic": 1000,
+    "large_code_systems": 1000,
+    "security": 599,
+    "backend": 498,
+    "database": 56,
+    "devops": 33,
+    "frontend": 242,
+    "fullstack": 93
+  },
+  "sourceReports": [
+    {
+      "file": "dataset_batch_01.jsonl",
+      "rawRows": 105,
+      "parseErrors": 0,
+      "validRows": 105,
+      "priority": 84
+    },
+    {
+      "file": "dataset_batch_02.jsonl",
+      "rawRows": 100,
+      "parseErrors": 0,
+      "validRows": 100,
+      "priority": 84
+    },
+    {
+      "file": "dataset_batch_03.jsonl",
+      "rawRows": 100,
+      "parseErrors": 0,
+      "validRows": 100,
+      "priority": 84
+    },
+    {
+      "file": "dataset_batch_04.jsonl",
+      "rawRows": 100,
+      "parseErrors": 0,
+      "validRows": 100,
+      "priority": 83
+    },
+    {
+      "file": "dataset_batch_05.jsonl",
+      "rawRows": 100,
+      "parseErrors": 0,
+      "validRows": 100,
+      "priority": 82
+    },
+    {
+      "file": "dataset_batch_1000_cyber_systemic_100.jsonl",
+      "rawRows": 540,
+      "parseErrors": 0,
+      "validRows": 540,
+      "priority": 90
+    },
+    {
+      "file": "dataset_batch_1000_fullstack_logic_rules_100.jsonl",
+      "rawRows": 1000,
+      "parseErrors": 0,
+      "validRows": 1000,
+      "priority": 92
+    },
+    {
+      "file": "dataset_batch_1000_large_code_systems_100.jsonl",
+      "rawRows": 1000,
+      "parseErrors": 0,
+      "validRows": 1000,
+      "priority": 91
+    },
+    {
+      "file": "dataset_batch_200.jsonl",
+      "rawRows": 79,
+      "parseErrors": 0,
+      "validRows": 79,
+      "priority": 78
+    },
+    {
+      "file": "dataset_batch_300.jsonl",
+      "rawRows": 300,
+      "parseErrors": 0,
+      "validRows": 300,
+      "priority": 72
+    },
+    {
+      "file": "dataset_batch_300_needs_fix.jsonl",
+      "rawRows": 97,
+      "parseErrors": 0,
+      "validRows": 97,
+      "priority": 58
+    },
+    {
+      "file": "dataset_batch_300_rejects.jsonl",
+      "rawRows": 0,
+      "parseErrors": 0,
+      "validRows": 0,
+      "priority": 0
+    },
+    {
+      "file": "dataset_batch_300_top.jsonl",
+      "rawRows": 203,
+      "parseErrors": 0,
+      "validRows": 203,
+      "priority": 76
+    },
+    {
+      "file": "dataset_batch_300_v2.jsonl",
+      "rawRows": 300,
+      "parseErrors": 0,
+      "validRows": 300,
+      "priority": 74
+    },
+    {
+      "file": "dataset_batch_4000_doc_research_tasks_100.jsonl",
+      "rawRows": 4000,
+      "parseErrors": 0,
+      "validRows": 4000,
+      "priority": 94
+    },
+    {
+      "file": "dataset_batch_4000_internet_solution_search_tasks_100.jsonl",
+      "rawRows": 4000,
+      "parseErrors": 0,
+      "validRows": 4000,
+      "priority": 100
+    },
+    {
+      "file": "dataset_batch_500_100.jsonl",
+      "rawRows": 97,
+      "parseErrors": 0,
+      "validRows": 97,
+      "priority": 88
+    }
+  ],
+  "quarantineCounts": {
+    "duplicate_lower_priority": 1555,
+    "duplicate_normalized_task_key": 29
+  },
+  "status": "gold_ready",
+  "goldIdSequence": "contiguous gold-1..gold-11521",
+  "quarantineRows": 2568,
+  "quarantineProvenance": "kept_source now includes source file, line, and original id when a kept row can be resolved",
+  "quarantineMissingKeptDetail": 0
+}

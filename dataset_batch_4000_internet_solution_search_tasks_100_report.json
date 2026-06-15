@@ -1,0 +1,19 @@
+{
+  "total": 4000,
+  "uniqueIds": 4000,
+  "uniqueTasks": 4000,
+  "uniqueCategories": 20,
+  "scoreCounts": {
+    "100": 4000
+  },
+  "all_top": true,
+  "internetRequiredCount": 4000,
+  "webSearchRequiredCount": 4000,
+  "officialDocsRequiredCount": 4000,
+  "minSourcesRequiredMin": 3,
+  "minSourcesRequiredMax": 4,
+  "missingFields": [],
+  "shortFields": [],
+  "status": "all_100",
+  "theme": "internet_solution_search_with_evidence"
+}

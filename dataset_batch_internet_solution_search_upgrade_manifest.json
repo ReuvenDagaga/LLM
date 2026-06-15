@@ -1,0 +1,11 @@
+{
+  "createdAt": "2026-06-10",
+  "sourceFile": "dataset_batch_4000_doc_research_tasks_100.jsonl",
+  "enhancedFile": "dataset_batch_4000_internet_solution_search_tasks_100.jsonl",
+  "enhancedReport": "dataset_batch_4000_internet_solution_search_tasks_100_report.json",
+  "auditJson": "dataset_quality_audit_fullstack_doc_research_2026-06-10.json",
+  "auditMarkdown": "dataset_quality_audit_fullstack_doc_research_2026-06-10.md",
+  "totalEnhancedRows": 4000,
+  "status": "all_100",
+  "intent": "Upgrade docs-only research tasks into broader internet solution search tasks with official docs, source comparison, freshness checks, and anti-hallucination gates."
+}

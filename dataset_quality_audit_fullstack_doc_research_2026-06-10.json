@@ -1,0 +1,196 @@
+{
+  "createdAt": "2026-06-10",
+  "filesAudited": {
+    "fullstack": "dataset_batch_1000_fullstack_logic_rules_100.jsonl",
+    "docs": "dataset_batch_4000_doc_research_tasks_100.jsonl"
+  },
+  "summary": {
+    "totalRowsAudited": 5000,
+    "mainFinding": "The datasets are structurally valid and useful, but the internet research dataset should be sharpened from docs-only verification into evidence-based solution research.",
+    "recommendation": "Create an enhanced internet-solution-search dataset that requires official docs plus current web evidence, source comparison, version/date checks, and explicit anti-hallucination gates."
+  },
+  "audits": [
+    {
+      "name": "fullstack_logic_rules",
+      "total": 1000,
+      "uniqueIds": 1000,
+      "uniqueTasks": 1000,
+      "uniqueCategories": 115,
+      "domains": [
+        {
+          "value": "fullstack_problem_logic",
+          "count": 1000
+        }
+      ],
+      "minScore": 100,
+      "maxScore": 100,
+      "allQuality100": true,
+      "internetRequiredCount": 0,
+      "webSearchRequiredCount": 0,
+      "sourceFieldsCount": 0,
+      "lengthStats": {
+        "taskAvg": 244,
+        "taskMedian": 244,
+        "solutionAvg": 889,
+        "solutionMedian": 890,
+        "reasoningAvg": 274
+      },
+      "uniqueness": {
+        "uniqueTaskFingerprints": 1000,
+        "uniqueSolutionFingerprints": 1000,
+        "repeatedSolutionFingerprintCount": 0,
+        "topCategories": [
+          {
+            "value": "contract_first_debugging",
+            "count": 9
+          },
+          {
+            "value": "state_ownership",
+            "count": 9
+          },
+          {
+            "value": "latency_budgeting",
+            "count": 9
+          },
+          {
+            "value": "error_semantics",
+            "count": 9
+          },
+          {
+            "value": "idempotent_writes",
+            "count": 9
+          },
+          {
+            "value": "cache_invalidation_logic",
+            "count": 9
+          },
+          {
+            "value": "database_truth_boundary",
+            "count": 9
+          },
+          {
+            "value": "feature_flag_logic",
+            "count": 9
+          },
+          {
+            "value": "auth_context_propagation",
+            "count": 9
+          },
+          {
+            "value": "tenant_isolation_logic",
+            "count": 9
+          },
+          {
+            "value": "form_submission_flow",
+            "count": 9
+          },
+          {
+            "value": "optimistic_update_safety",
+            "count": 9
+          }
+        ]
+      },
+      "scores": {
+        "uniquenessScore": 100,
+        "semanticDepthScore": 100,
+        "actionabilityScore": 100,
+        "docsOrInternetForcingScore": 0,
+        "overallAuditScore": 75
+      },
+      "notes": [
+        "Strong cross-layer structure and explicit invariant tracing. Weakness: generated phrasing repeats the same investigation skeleton, so expert gold data should later add more messy real-world cases."
+      ]
+    },
+    {
+      "name": "documentation_research_tasks",
+      "total": 4000,
+      "uniqueIds": 4000,
+      "uniqueTasks": 4000,
+      "uniqueCategories": 20,
+      "domains": [
+        {
+          "value": "documentation_research_tasks",
+          "count": 4000
+        }
+      ],
+      "minScore": 100,
+      "maxScore": 100,
+      "allQuality100": true,
+      "internetRequiredCount": 4000,
+      "webSearchRequiredCount": 0,
+      "sourceFieldsCount": 4000,
+      "lengthStats": {
+        "taskAvg": 306,
+        "taskMedian": 306,
+        "solutionAvg": 613,
+        "solutionMedian": 623,
+        "reasoningAvg": 266
+      },
+      "uniqueness": {
+        "uniqueTaskFingerprints": 2520,
+        "uniqueSolutionFingerprints": 63,
+        "repeatedSolutionFingerprintCount": 3937,
+        "topCategories": [
+          {
+            "value": "database_transaction_research",
+            "count": 204
+          },
+          {
+            "value": "error_handling_research",
+            "count": 204
+          },
+          {
+            "value": "file_upload_research",
+            "count": 203
+          },
+          {
+            "value": "cache_behavior_research",
+            "count": 203
+          },
+          {
+            "value": "schema_validation_research",
+            "count": 203
+          },
+          {
+            "value": "routing_semantics_research",
+            "count": 202
+          },
+          {
+            "value": "monorepo_build_research",
+            "count": 202
+          },
+          {
+            "value": "deployment_config_research",
+            "count": 202
+          },
+          {
+            "value": "observability_research",
+            "count": 200
+          },
+          {
+            "value": "pagination_research",
+            "count": 200
+          },
+          {
+            "value": "ssr_hydration_research",
+            "count": 200
+          },
+          {
+            "value": "auth_flow_research",
+            "count": 200
+          }
+        ]
+      },
+      "scores": {
+        "uniquenessScore": 59,
+        "semanticDepthScore": 100,
+        "actionabilityScore": 100,
+        "docsOrInternetForcingScore": 100,
+        "overallAuditScore": 90
+      },
+      "notes": [
+        "Excellent official-documentation forcing. Weakness: the current file over-focuses on official docs and under-specifies broad internet solution search, issue history, release notes, and contradiction handling."
+      ]
+    }
+  ]
+}

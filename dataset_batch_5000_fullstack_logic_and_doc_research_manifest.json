@@ -1,0 +1,23 @@
+{
+  "total_new_records": 5000,
+  "files": [
+    "dataset_batch_1000_fullstack_logic_rules_100.jsonl",
+    "dataset_batch_4000_doc_research_tasks_100.jsonl"
+  ],
+  "reports": [
+    "dataset_batch_1000_fullstack_logic_rules_100_report.json",
+    "dataset_batch_4000_doc_research_tasks_100_report.json"
+  ],
+  "fullstack_logic_rules": {
+    "total": 1000,
+    "internet_required": 0,
+    "status": "all_100"
+  },
+  "documentation_research_tasks": {
+    "total": 4000,
+    "internet_required": 4000,
+    "status": "all_100"
+  },
+  "quality_score": 100,
+  "quality_label": "top"
+}
