@@ -1,13 +1,20 @@
 {
   "total": 540,
+  "uniqueIds": 540,
+  "uniqueTasks": 540,
+  "uniqueCategories": 108,
   "scoreCounts": {
     "100": 540
   },
   "all_top": true,
   "duplicates": 0,
+  "idDuplicates": 0,
+  "missingFields": [],
   "shortFields": [],
-  "status": "all_top_deduplicated",
-  "theme": "cybersecurity_systemic_prevention",
+  "status": "revalidated_after_2026_06_15_line_by_line_pass",
+  "theme": "cybersecurity_systemic_prevention_metric_aligned",
   "deduplicated_total": 540,
-  "removedDuplicates": 460
+  "removedDuplicates": 460,
+  "foreignMetricMarkerCount": 0,
+  "solutionStyle": "structured_prose_contracts_not_mixed_pseudocode"
 }

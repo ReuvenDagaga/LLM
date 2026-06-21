@@ -1,6 +1,5 @@
 {
   "total": 4000,
-  "expected": 4000,
   "uniqueIds": 4000,
   "uniqueTasks": 4000,
   "uniqueCategories": 20,
@@ -12,7 +11,10 @@
   "idDuplicates": 0,
   "missingFields": [],
   "shortFields": [],
+  "status": "revalidated_after_2026_06_15_line_by_line_pass",
+  "theme": "documentation_research_tasks_official_docs_or_specs_required",
   "internetRequiredCount": 4000,
-  "status": "all_100",
-  "theme": "documentation_research_tasks_official_docs_required"
+  "coverageMappingRows": 4000,
+  "noAnswerConditionRows": 4000,
+  "contradictionPolicyRows": 4000
 }

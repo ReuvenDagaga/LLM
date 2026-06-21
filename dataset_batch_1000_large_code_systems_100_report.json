@@ -1,16 +1,16 @@
 {
   "total": 1000,
-  "uniqueTasks": 1000,
-  "uniqueIds": 1000,
-  "uniqueCategories": 112,
   "scoreCounts": {
     "100": 1000
   },
   "all_top": true,
   "duplicates": 0,
-  "idDuplicates": 0,
-  "missingFields": [],
   "shortFields": [],
-  "status": "all_100",
-  "theme": "large_code_systems_system_principles"
+  "status": "revalidated_after_2026_06_15_line_by_line_pass",
+  "theme": "large_code_systems_row_specific_operating_model",
+  "uniqueIds": 1000,
+  "uniqueTasks": 1000,
+  "uniqueCategories": 112,
+  "rowSpecificDesignGoalRows": 1000,
+  "rowSpecificTradeoffRows": 1000
 }

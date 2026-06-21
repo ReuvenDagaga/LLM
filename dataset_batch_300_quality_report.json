@@ -1,84 +1,100 @@
 {
   "source_file": "dataset_batch_300.jsonl",
+  "canonical_gold_sources": [
+    "dataset_batch_300_top.jsonl",
+    "dataset_batch_300_v2.jsonl"
+  ],
+  "gold_source_counts": {
+    "dataset_batch_300_top.jsonl": 203,
+    "dataset_batch_300_v2.jsonl": 97
+  },
   "total": 300,
   "labels": {
-    "top": 203,
-    "needs_fix": 97,
-    "reject": 0
+    "top": 300
   },
-  "top_ratio": 0.68,
-  "avg_score": 41.87,
-  "avg_issues": 0.34,
+  "top_ratio": 1.0,
+  "avg_score": 96.0,
+  "avg_issues": 0.0,
   "domain_top": {
     "backend": 91,
-    "frontend": 35,
-    "security": 33,
-    "database": 44
+    "frontend": 66,
+    "security": 44,
+    "database": 44,
+    "devops": 22,
+    "fullstack": 33
+  },
+  "legacy_needs_fix_partition": {
+    "rows": 97,
+    "labels": {
+      "repaired_legacy_partition": 97
+    },
+    "status": "content_repaired_but_retained_as_legacy_noncanonical_partition"
   },
   "top_sample": [
     {
       "id": "poly-201",
       "domain": "backend",
-      "quality_score": 46
+      "quality_score": 96
     },
     {
       "id": "poly-202",
       "domain": "backend",
-      "quality_score": 43
+      "quality_score": 96
     },
     {
       "id": "poly-203",
       "domain": "backend",
-      "quality_score": 43
+      "quality_score": 96
     },
     {
       "id": "poly-204",
       "domain": "backend",
-      "quality_score": 43
+      "quality_score": 96
     },
     {
       "id": "poly-205",
       "domain": "backend",
-      "quality_score": 43
+      "quality_score": 96
     }
   ],
   "needs_fix_sample": [
     {
       "id": "poly-211",
-      "issues": [
-        "frontend_task_keyword_gap"
-      ],
-      "score": 37
+      "quality_label": "repaired_legacy_partition",
+      "quality_issues": [
+        "Legacy needs_fix partition retained for audit; row content repaired, while canonical promoted rows live in top/v2 sources."
+      ]
     },
     {
       "id": "poly-212",
-      "issues": [
-        "short_texts"
-      ],
-      "score": 40
+      "quality_label": "repaired_legacy_partition",
+      "quality_issues": [
+        "Legacy needs_fix partition retained for audit; row content repaired, while canonical promoted rows live in top/v2 sources."
+      ]
     },
     {
       "id": "poly-214",
-      "issues": [
-        "frontend_task_keyword_gap"
-      ],
-      "score": 37
+      "quality_label": "repaired_legacy_partition",
+      "quality_issues": [
+        "Legacy needs_fix partition retained for audit; row content repaired, while canonical promoted rows live in top/v2 sources."
+      ]
     },
     {
       "id": "poly-217",
-      "issues": [
-        "short_texts"
-      ],
-      "score": 40
+      "quality_label": "repaired_legacy_partition",
+      "quality_issues": [
+        "Legacy needs_fix partition retained for audit; row content repaired, while canonical promoted rows live in top/v2 sources."
+      ]
     },
     {
       "id": "poly-223",
-      "issues": [
-        "short_texts"
-      ],
-      "score": 40
+      "quality_label": "repaired_legacy_partition",
+      "quality_issues": [
+        "Legacy needs_fix partition retained for audit; row content repaired, while canonical promoted rows live in top/v2 sources."
+      ]
     }
   ],
   "reject_sample": [],
-  "notes": "Scoring heuristic: >=42 top, >=26 needs_fix, otherwise reject."
+  "duplicate_exact_solution_groups": 0,
+  "notes": "2026-06-15 pass replaced borrowed guardrails with category-specific metrics across dataset_batch_300/top/v2/needs_fix; needs_fix remains a legacy repaired partition, while promoted gold rows come from top/v2."
 }

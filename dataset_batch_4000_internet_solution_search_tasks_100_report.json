@@ -7,13 +7,16 @@
     "100": 4000
   },
   "all_top": true,
+  "duplicates": 0,
+  "idDuplicates": 0,
+  "missingFields": [],
+  "shortFields": [],
+  "status": "revalidated_after_2026_06_15_line_by_line_pass",
+  "theme": "internet_solution_search_with_target_coverage_mapping",
   "internetRequiredCount": 4000,
   "webSearchRequiredCount": 4000,
   "officialDocsRequiredCount": 4000,
+  "coverageMappingRows": 4000,
   "minSourcesRequiredMin": 3,
-  "minSourcesRequiredMax": 4,
-  "missingFields": [],
-  "shortFields": [],
-  "status": "all_100",
-  "theme": "internet_solution_search_with_evidence"
+  "minSourcesRequiredMax": 4
 }

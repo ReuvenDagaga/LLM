@@ -1,11 +1,15 @@
 {
   "createdAt": "2026-06-10",
+  "updatedAt": "2026-06-15",
   "totalGoldRows": 11521,
   "uniqueIds": 11521,
   "uniqueTaskKeys": 11521,
   "internetRequiredRows": 8000,
-  "webSearchRequiredRows": 8000,
+  "webSearchRequiredRows": 4000,
   "officialDocsRequiredRows": 8000,
+  "officialDocsRequiredBooleanRows": 4000,
+  "researchProtocolPromptRows": 8000,
+  "researchCoverageMappingRows": 8000,
   "qualityScoreMin": 96,
   "qualityScoreMax": 100,
   "allTop": true,
@@ -40,6 +44,48 @@
     "fullstack": 93
   },
   "sourceReports": [
+    {
+      "file": "dataset_batch_4000_internet_solution_search_tasks_100.jsonl",
+      "rawRows": 4000,
+      "parseErrors": 0,
+      "validRows": 4000,
+      "priority": 100
+    },
+    {
+      "file": "dataset_batch_4000_doc_research_tasks_100.jsonl",
+      "rawRows": 4000,
+      "parseErrors": 0,
+      "validRows": 4000,
+      "priority": 94
+    },
+    {
+      "file": "dataset_batch_1000_fullstack_logic_rules_100.jsonl",
+      "rawRows": 1000,
+      "parseErrors": 0,
+      "validRows": 1000,
+      "priority": 92
+    },
+    {
+      "file": "dataset_batch_1000_large_code_systems_100.jsonl",
+      "rawRows": 1000,
+      "parseErrors": 0,
+      "validRows": 1000,
+      "priority": 91
+    },
+    {
+      "file": "dataset_batch_1000_cyber_systemic_100.jsonl",
+      "rawRows": 540,
+      "parseErrors": 0,
+      "validRows": 540,
+      "priority": 90
+    },
+    {
+      "file": "dataset_batch_500_100.jsonl",
+      "rawRows": 97,
+      "parseErrors": 0,
+      "validRows": 97,
+      "priority": 88
+    },
     {
       "file": "dataset_batch_01.jsonl",
       "rawRows": 105,
@@ -76,32 +122,25 @@
       "priority": 82
     },
     {
-      "file": "dataset_batch_1000_cyber_systemic_100.jsonl",
-      "rawRows": 540,
-      "parseErrors": 0,
-      "validRows": 540,
-      "priority": 90
-    },
-    {
-      "file": "dataset_batch_1000_fullstack_logic_rules_100.jsonl",
-      "rawRows": 1000,
-      "parseErrors": 0,
-      "validRows": 1000,
-      "priority": 92
-    },
-    {
-      "file": "dataset_batch_1000_large_code_systems_100.jsonl",
-      "rawRows": 1000,
-      "parseErrors": 0,
-      "validRows": 1000,
-      "priority": 91
-    },
-    {
       "file": "dataset_batch_200.jsonl",
       "rawRows": 79,
       "parseErrors": 0,
       "validRows": 79,
       "priority": 78
+    },
+    {
+      "file": "dataset_batch_300_top.jsonl",
+      "rawRows": 203,
+      "parseErrors": 0,
+      "validRows": 203,
+      "priority": 76
+    },
+    {
+      "file": "dataset_batch_300_v2.jsonl",
+      "rawRows": 300,
+      "parseErrors": 0,
+      "validRows": 300,
+      "priority": 74
     },
     {
       "file": "dataset_batch_300.jsonl",
@@ -123,50 +162,24 @@
       "parseErrors": 0,
       "validRows": 0,
       "priority": 0
-    },
-    {
-      "file": "dataset_batch_300_top.jsonl",
-      "rawRows": 203,
-      "parseErrors": 0,
-      "validRows": 203,
-      "priority": 76
-    },
-    {
-      "file": "dataset_batch_300_v2.jsonl",
-      "rawRows": 300,
-      "parseErrors": 0,
-      "validRows": 300,
-      "priority": 74
-    },
-    {
-      "file": "dataset_batch_4000_doc_research_tasks_100.jsonl",
-      "rawRows": 4000,
-      "parseErrors": 0,
-      "validRows": 4000,
-      "priority": 94
-    },
-    {
-      "file": "dataset_batch_4000_internet_solution_search_tasks_100.jsonl",
-      "rawRows": 4000,
-      "parseErrors": 0,
-      "validRows": 4000,
-      "priority": 100
-    },
-    {
-      "file": "dataset_batch_500_100.jsonl",
-      "rawRows": 97,
-      "parseErrors": 0,
-      "validRows": 97,
-      "priority": 88
     }
   ],
   "quarantineCounts": {
     "duplicate_lower_priority": 1555,
-    "duplicate_normalized_task_key": 29
+    "duplicate_normalized_task_key": 29,
+    "duplicate_removed_from_source": 984
   },
-  "status": "gold_ready",
-  "goldIdSequence": "contiguous gold-1..gold-11521",
   "quarantineRows": 2568,
-  "quarantineProvenance": "kept_source now includes source file, line, and original id when a kept row can be resolved",
-  "quarantineMissingKeptDetail": 0
+  "quarantineLineReferenceStatus": {
+    "historical_removed_source_line": 1968,
+    "current_source_line": 600
+  },
+  "quarantineRowsWithHistoricalLine": 1968,
+  "quarantineKeptGoldResolved": 2568,
+  "quarantineMissingKeptDetail": 0,
+  "quarantineProvenance": "Quarantine rows use unique quarantine event ids; quarantined_original_id preserves the removed task id; kept_gold_id resolves to the accepted gold row; historical removed source lines are preserved in quarantined_source_line_original while line/current_source_line point only to current source rows.",
+  "status": "ok_after_aggressive_line_by_line_quality_pass_2026_06_15",
+  "goldIdSequence": "contiguous gold-1..gold-11521",
+  "quarantineIdSequence": "contiguous quarantine-000001..quarantine-002568",
+  "lineByLinePass": "2026-06-15 pass fixed RN accessibility/snippet drift, E2E error-handling boilerplate, perf metric/snippet mismatches, systemic security metrics/threat alignment, dataset_batch_500 tenant/metric truncation, dataset_batch_300 guardrails, large-code operating-model boilerplate, migration rollout/telemetry boilerplate, animation reference/design-intent boilerplate, research target coverage/no-answer behavior, and quarantine provenance/report counts."
 }

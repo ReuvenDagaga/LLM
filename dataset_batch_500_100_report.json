@@ -1,12 +1,20 @@
 {
   "total": 97,
+  "uniqueIds": 97,
+  "uniqueTasks": 97,
+  "uniqueCategories": 64,
   "scoreCounts": {
     "100": 97
   },
   "all_top": true,
   "duplicates": 0,
+  "idDuplicates": 0,
+  "missingFields": [],
   "shortFields": [],
-  "status": "all_top_deduplicated",
+  "status": "revalidated_after_2026_06_15_line_by_line_pass",
+  "theme": "backend_database_devops_frontend_fullstack_security_repaired",
   "deduplicated_total": 97,
-  "removedDuplicates": 403
+  "removedDuplicates": 403,
+  "tenantPlaceholderCount": 0,
+  "borrowedMetricMarkerCount": 0
 }
